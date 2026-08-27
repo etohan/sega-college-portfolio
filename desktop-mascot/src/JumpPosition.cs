@@ -9,8 +9,6 @@ public class JumpPosition : MonoBehaviour
     void Start()
     {
         StartCoroutine(PauseRoutine());
-        // ƒIƒuƒWƒFƒNƒg‚ÌˆÊ’u‚ğV‚µ‚¢ˆÊ’u‚Éİ’è
-        
     }
 
     void Update()
@@ -20,14 +18,8 @@ public class JumpPosition : MonoBehaviour
 
     IEnumerator PauseRoutine()
     {
-        // “®ì‚ğ~‚ß‚é‘O‚Ìˆ—
-        Debug.Log("Pause started");
-
-        // w’è‚µ‚½•b”‘Ò‹@
+        // æŒ‡å®šæ™‚é–“å¾…æ©Ÿã—ãŸå¾Œã€ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’æŒ‡å®šä½ç½®ã¸ç§»å‹•
         yield return new WaitForSeconds(1.1f);
-
         transform.position = newPosition;
-        // “®ì‚ğÄŠJ‚·‚éˆ—
-        Debug.Log("Pause ended");
     }
 }
