@@ -22,6 +22,12 @@ Unityを用いて制作したデスクトップマスコットアプリです。
 
 [デスクトップマスコットをダウンロードして試す](https://github.com/etohan/unitychan-desktop-mascot/releases/tag/v1.0.0)
 
+## 紹介動画
+
+実際の動作は以下の動画から確認できます。
+
+[Desktop Mascot 紹介動画](https://youtu.be/Ziv_cPDGlYg)
+
 ## ソースコード
 
 `src/` フォルダに、アプリで使用している主要なC#スクリプトを掲載しています。
